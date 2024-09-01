@@ -110,7 +110,20 @@ body {
     margin-right: auto;
 }
 
-.bar{
+.bar1{
+    background-image: url(gmbr/h.png);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+}
+
+.bar2{
     height: 90px;
     background: linear-gradient(#ff00b3,#000000,#000000);
     background-size: 100%;
@@ -131,7 +144,7 @@ body {
     display: inline-block;
 }
 
-.bar .menu p{
+.bar2 .menu p{
     font-family: montserrat;
     font-weight: 900;
     font-size: 15px;
