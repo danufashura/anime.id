@@ -1,0 +1,139 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.top{
+    height: 30%;
+    width : 30%; 
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.test{
+    color: white;
+    font-family: montserrat;
+    font-weight: 1000;
+    border-radius: 5px;
+    height: 10%;
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    left: 5px;
+}
+
+.title{
+    font-family:"nerko one"
+}
+    
+.bg{
+    margin-right:auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url(gmbr/h.png);
+}
+
+.bgt{
+    padding: 7px;
+    border-radius: 5px;
+    margin-right:auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url(gmbr/h.png);
+}
+
+.scroll-container{
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: white;
+    width: 95%;
+    height: 95%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-content {
+    max-height: : 300px;
+    max-width: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.item {
+    position: relative;
+    opacity: 100%;
+    display: inline-block;
+    background-color: pink;
+    color: white;
+    padding:5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item img {
+    max-width: auto;
+    margin-bottom: 0; 
+    display: inline-block;
+    border-radius: 5px;
+    white-space: normal;
+}
+
+.scroll-container .scroll-content .item h3{
+    min-height: 35px;
+    display: block;
+    word-wrap: break-word;
+    white-space: normal;
+    font-size: 16px;
+    font-family: "montserrat";
+    overflow: hidden; /* Menyembunyikan bagian teks yang tidak muat */
+    text-overflow: ellipsis; /* Menambahkan elipsis di akhir teks yang terpotong jika diperlukan */
+    margin-top:10px; /* Tengah-tengahkan teks dalam item */
+
+}
+
+.item:last-child {
+    margin-right: auto;
+}
+
+.bar{
+    height: 90px;
+    background: linear-gradient(#ff00b3,#000000,#000000);
+    background-size: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    right: 0;
+    left: 0;
+}
+
+.menu{
+    margin-left: 20px; margin-right: 20px;
+    margin-bottom: 0;
+    padding:7px;
+    display: inline-block;
+}
+
+.bar .menu p{
+    font-family: montserrat;
+    font-weight: 900;
+    font-size: 15px;
+    color: white;
+}
