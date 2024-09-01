@@ -94,7 +94,7 @@ body {
 }
 
 .scroll-container .scroll-content .item h3{
-    min-height: 35px;
+    min-height: 40px;
     display: block;
     word-wrap: break-word;
     white-space: normal;
