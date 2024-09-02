@@ -83,8 +83,8 @@ body {
     padding:5px;
     border-radius: 5px;
     text-align: center;
-}
-
+    font-family: montserrat;
+    
 .item img {
     max-width: auto;
     margin-bottom: 0; 
