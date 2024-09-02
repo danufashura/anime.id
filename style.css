@@ -5,6 +5,10 @@ body {
     background-size: cover;
 }
 
+#sct{
+    font-family:montserrat;
+}
+
 .top{
     height: 30%;
     width : 30%; 
