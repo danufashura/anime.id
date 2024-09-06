@@ -1,0 +1,52 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+
+.isi{
+    position: absolute;
+}    
+
+.bg{
+    height: auto;
+    padding: 5px;
+    border-style: solid
+    border-color: white;
+    border-radius: 10px;
+    margin: 8px;
+    background-image: url(/storage/emulated/0/Test/Website/nimex/bg/h.png);
+}
+
+.gmbr {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center;    /* Vertikal */
+    height: auto;          /* Atur tinggi sesuai kebutuhan*/
+}
+
+.gmbr img {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: pink;
+    max-width: 50%; /* Atur lebar maksimum gambar */
+    height: auto;    /* Menjaga proporsi gambar */
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:pink;
+}
+
+a:hover{
+    color:white;
+}
+
+a:active{
+    color:pink;
+}
