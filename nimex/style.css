@@ -6,6 +6,11 @@ body{
     margin: auto;
 }
 
+.icon{
+    position : absolute;
+    top, left : 0;
+    height: 40;
+
 .isi{
     position: absolute;
 }    
