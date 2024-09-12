@@ -9,6 +9,7 @@ body{
 #button{
     position : absolute;
     top, left : 0;
+    height : 40px;
 }
 
 .isi{
