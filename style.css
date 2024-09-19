@@ -57,14 +57,12 @@ body {
 }
 
 .scroll-container{
-    -ms-overflow-style: none;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
     border-color: white;
     width: 95%;
     height: 95%;
-    overflow-x: auto;
     white-space: nowrap;
     padding: 7px;
     border-radius: 10px;
