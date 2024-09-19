@@ -105,9 +105,9 @@ body {
     white-space: normal;
     font-size: 16px;
     font-family: "montserrat";
-    overflow: hidden; /* Menyembunyikan bagian teks yang tidak muat */
-    text-overflow: ellipsis; /* Menambahkan elipsis di akhir teks yang terpotong jika diperlukan */
-    margin-top:10px; /* Tengah-tengahkan teks dalam item */
+    overflow-x: hidden
+    text-overflow: ellipsis;
+    margin-top:10px;
 
 }
 
@@ -118,11 +118,10 @@ body {
 .bar1{
     background-image: url(gmbr/h.png);
     background-size: 100%;
-    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    position: fixed;
+    position: sticky;
     top:0;
     right: 0;
     left: 0;
@@ -130,9 +129,8 @@ body {
 
 .bar2{
     height: 90px;
-    background: linear-gradient(#ff00b3,#000000,#000000);
+    background-image: url(gmbr/h.png);
     background-size: 100%;
-    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -143,8 +141,7 @@ body {
 }
 
 .menu{
-    margin-left: 20px; margin-right: 20px;
-    margin-bottom: 0;
+    margin: 7px;
     padding:7px;
     display: inline-block;
 }
