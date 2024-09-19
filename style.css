@@ -56,7 +56,6 @@ body {
 }
 
 .scroll-container{
-    display:none ;
     -ms-overflow-style: none;
     margin-left: auto;
     margin-right: auto;
