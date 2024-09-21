@@ -1,0 +1,79 @@
+/*nimex*/
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+* {
+    transition: 0.2s ease-out;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+}
+
+.isi{
+    position: absolute;
+}    
+
+.bg{
+    height: auto;
+    padding: 5px;
+    border-style: solid
+    border-color: white;
+    border-radius: 10px;
+    margin: 8px;
+    background-image: url(h.png);
+}
+
+.gmbr {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center;    /* Vertikal */
+    height: auto;          /* Atur tinggi sesuai kebutuhan*/
+}
+
+.gmbr img {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: pink;
+    max-width: 50%; /* Atur lebar maksimum gambar */
+    height: auto;    /* Menjaga proporsi gambar */
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:pink;
+}
+
+a:active{
+    color:white;
+}
+
+.menu{
+    z-index: 1;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: darkgrey
+    margin: 7px;
+    display: inline-block;
+}
+
+.menu:hover{
+    transform: translateY(4px);
+}
+
+.menu:active{
+    transform: translateY(4px);
+}
