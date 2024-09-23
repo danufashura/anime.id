@@ -7,13 +7,13 @@ function sendEmail() {
         const bodyMessage = `Name: ${fullName.value}<br> Email: ${email.value}<br> Comment : ${comm.value}`;
     
 Email.send({
-    Host : "smtp.elasticemail.com",
+    Host : "smtp.gmail.com",
     Username : "dfashura@gmail.com",
     Password : "F40E48CB30872D2F12A481368D996F4E2B44",
     To : 'dfashura@gmail.com',
     From : "dfashura@gmail.com",
-    Subject : "Feedback",
-    Body : "And this is the body"
+    Subject : document.getElementById("email").value,
+    Body : bodyMessage,
 }).then(
   message => {
 if (message == "OK") {
