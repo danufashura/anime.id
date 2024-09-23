@@ -13,7 +13,7 @@ Email.send({
     To : 'dfashura@gmail.com',
     From : "dfashura@gmail.com",
     Subject : document.getElementById("email").value,
-    Body : bodyMessage,
+    Body : `bodyMessage`,
 }).then(
   message => {
 if (message == "OK") {
