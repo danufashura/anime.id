@@ -291,7 +291,7 @@
 
 <hr>
     
-    <form onclick=sendEmail(); action="POST">
+    <form action="POST">
     <h1 style="color:white;">Komentar</h1>
     <h6 style="color:white;">Apakah anda memiliki komentar atau saran?. Jika ada, tolong sampaikan saja melalui kolom dibawah ya! Tolong jangan spam;)</h6>
         <div>
@@ -310,7 +310,7 @@
             <input type="reset">
         </div>
         <div>
-            <input type="submit">
+            <input onclick=sendEmail() ; type="submit">
         </div>
     </form>
 <script src="script.js"></script>
