@@ -18,8 +18,8 @@ body {
         opacity: 0;
         transition : translateY(-10px)
         } to {
-        opacity: 0;
-        transition : translateY(-10px)
+        opacity: 1;
+        transition : translateY(0)
              }
 }
 * {
