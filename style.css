@@ -189,7 +189,7 @@ li a:hover {
 
 .bar1{
     z-index: 2;
-    background-color: #241b22;
+    background-color: black;
     background-size: 100%;
     display: flex;
     justify-content: space-between;
@@ -204,7 +204,7 @@ li a:hover {
     margin: 0;
     z-index: 2;
     height: 90px;
-    background-image: url(nimex/gmbr/h.png);
+    background-color: black;
     background-size: 100%;
     display: flex;
     justify-content: space-between;
