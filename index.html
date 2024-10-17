@@ -417,8 +417,9 @@
     </div>
 
 <hr>
-    <form id="komentar" onsubmit="sendEmail(); reset: (); return false;">
+    <form id="komentar" action="https://api.web3forms.com/submit" method="POST">
     <h1 style="color:white; font-family:montserrat">Komentar</h1>
+        <input type="hidden" name="access_key" value="da907169-f581-4580-a7d1-c1dc95b77e44">
     <h6 style="color:white;">Apakah anda memiliki komentar atau saran?. Jika ada, tolong sampaikan saja melalui kolom dibawah ya! Tolong jangan spam;)</h6>
         <div>
             <input class="input" autocomplete="off" type="text" name="nama" id="nama" placeholder="Masukkanm nama anda" required>
@@ -432,6 +433,7 @@
             <textarea class="input" autocomplete="off" rows="5" cols="50" name="coment" id="comment" placeholder="Masukkan komentar anda" required></textarea>
             <div class="et">Komentar tidak bisa kosong</div>
         </div>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
         <div>
             <input type="reset">
         </div>
