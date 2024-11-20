@@ -371,6 +371,16 @@ form{
     color: white;
 }
 
+input::placeholder {
+      color: white;
+      opacity: 0.75;
+    }
+
+textarea::placeholder {
+      color: white;
+      opacity: 0.75;
+    }
+
 .et{
     margin: 0 0 10px;
     text-align: left;
@@ -380,7 +390,7 @@ form{
 }
 
 form input{
-    background-color: none;
+    background-color: rgba(0,0,0,0.1);
     margin-bottom: 15px;
     border-style: solid;
     border-radius: 10px;
@@ -411,7 +421,7 @@ form textarea{
     width: 90%;
     padding: 15px 15px;
     font-size: 20px;
-    background-color: none;
+    background-color: rgba(0,0,0,0.1);
     color: white;
     font-family: montserrat;
     border-radius: 7px;
