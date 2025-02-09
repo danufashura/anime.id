@@ -433,6 +433,12 @@ input:hover,textarea:hover{
     transform: translateY(4px);
 }
 
+@media(max-width:768px){
+    li a {
+        font-size:25px;)
+    }
+}
+
 /*
 --text: #ffffff;
 --background: #1f1f1f;
